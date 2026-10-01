@@ -1,0 +1,291 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+
+}
+.firstpage{
+    background: linear-gradient(to right, #777777, #151515);
+
+}
+.navbar{
+  display: flex;
+  align-items:center;
+  padding: 10px;
+  background-color: white;
+  height: 65px;
+  width: 1500px;
+}
+.headlogo{
+  width: 250px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.headright{
+  display: flex;
+  align-items:center;
+  margin-left:25px ;
+  font-size: 18px;
+}
+.headmiddle{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  
+}
+.headmiddle span{
+  margin: 30px;
+  white-space: nowrap;
+}
+.blog{
+  color: #f5a000;
+  text-decoration: none;
+}
+.arrow{
+  color: #f5a000;
+  font-size: xx-large;
+  margin-right: 50px;
+}
+.contact{
+  border-style: solid;
+  background-color:#f5a000 ;
+  padding: 30px 40px;
+  border-color: transparent;
+  color: white;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.house{
+  font-size: 18pt;
+  color: white;
+}
+.BB{
+  color:#f5a000 ;
+}
+.dom img{
+  width: 500px;
+  height: 500px;
+  margin-top:70px ;
+}
+.body1{
+  display: flex;
+}
+.dombody p {
+  color: whitesmoke;
+}
+.dombody h2{
+  color: whitesmoke;
+}
+.dombody{
+  display:flexbox;
+  flex-wrap: nowrap;
+  margin-top: 150px;
+}
+.q{
+  color: white;
+}
+.w{
+  color: white;
+}
+.en{
+  margin-left: 27px;
+}
+.home{
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.orangeline{
+  background-color: #f5a000;
+  width: 35px;
+  height: 5px;
+  margin: 25px;
+}
+.cards{
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+}
+.card{
+  border-style: solid;
+  border-color:gray ;
+  width: 33%;
+}
+.card img{
+  width: 489px;
+  height: 210px;
+}
+.kateb img{
+  width: 70px;
+  height: 70px;
+}
+.card h3,
+.card p{
+  margin: 25px;
+}
+.kateb{
+  display: flex;
+  margin: 25px;
+
+}
+.read-arti{
+  margin-left: 270px;
+  text-decoration: none;
+  color: black;
+}
+.bc{
+  padding: 12px;
+  border-style: solid;
+  margin-left: 25px;
+  margin-top: -25px;
+  background-color: whitesmoke;
+  border-color: white;
+
+}
+.arti-arrow{
+  color: orange;
+  text-decoration: none;
+  font-size: 19px;
+}
+.kateb span{
+  margin: 20px;
+}
+.thirdhead{
+  text-align: center;
+  margin-top: 50px;
+}
+.secondol{
+  background-color: orange;
+  width: 30px;
+  height: 5px;
+  margin: 20px auto;
+}
+.labels{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  padding: 70px;
+}
+.lab1,
+.lab2,
+.lab3,
+.lab4 {
+  width: 45%;
+}
+.labels label {
+  margin-bottom: 10px;
+}
+
+.labels input {
+  width: 600px;
+  height: 45px;
+  border: solid gray;
+  border-radius: 25px;
+}
+.lab22 input{
+  padding: 15px;
+  width: 86%;
+  display: block;
+  border:solid gray;
+  border-radius: 25px;
+}
+.lab22{
+  margin-left: 70px;
+  margin-top: -30px;
+}
+.lab222{
+  margin-top: 20px;
+}
+.labelz{
+  margin-left: 70px;
+}
+.nda{
+  margin-left: 140px;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.nda input{
+  margin-left: 10px;
+
+}
+.privacy{
+  width: 550px;
+  margin-left:140px ;
+  margin-top: 30px;
+}
+.privacy a{
+  text-decoration: none;
+  color: orange;
+}
+.send{
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  height: 90px;
+  margin-left: 900px;
+  margin-top: -80pt;
+  background: linear-gradient(to right, orange, orangered);
+  color: white;
+  font-size: 16px;
+  border: none;
+  align-items: center;
+  padding: 30px;
+}
+.footer{
+  background-color: #222;
+  color: white;
+  padding: 40px;
+  margin-top: 70px;
+}
+.footer-top{
+  display: flex;
+}
+.footer-column{
+  margin-right: 100px;
+}
+.footer-column p{
+  margin: 10px;
+}
+.footer-line{
+  background-color: orange;
+  width: 25px;
+  height: 4px;
+}
+.footer-contact{
+  margin-left: 50px;
+  width: 450px;
+}
+.footer-button{
+  background-color: orange;
+  color: white;
+  width: 450px;
+  height: 100px;
+  border: none;
+  font-size: 18px;
+}
+.footer hr{
+  margin-top: 40px;
+}
+.footer-bottom{
+  display: flex;
+}
+.headquarters{
+  width: 250px;
+  padding: 30px;
+  border-right: solid gray;
+}
+.headquarters img{
+  width: 230px;
+  height: 200px;
+}
+.locations{
+  display: flex;
+  flex-wrap: wrap;
+}
+.location{
+  width: 280px;
+  margin: 30px;
+}
+.location span,
+.headquarters span{
+  color: orange;
+}
